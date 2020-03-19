@@ -1,0 +1,76 @@
+:root {
+    font-family: 16px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+section {
+    transform: translateX(150px);
+    width: 75%;
+    margin: 0 auto;
+}
+
+section .avatar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../img/banner.jpg);
+    background-attachment: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+section .avatar img{
+    width: 300px;
+}
+
+section .info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #eee;
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    border-left: 5px solid rgb(79, 255, 88);
+}
+
+section .info .general {
+    width: 40%;
+}
+
+section .info img{
+    padding: 10px;
+    border: 2px solid #999;
+    background: #fff;
+}
+
+section .info .general h2{
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #333;
+    margin-bottom: 2rem;
+}
+section .info .general p{
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #ddd;
+}
+
+section .info .general p b {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    color: rgb(0, 80, 184);
+}
+
+section .info .general p span {
+    letter-spacing: 0;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    color: #333;
+}
